@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="online_mcq.Admin_LoginController">
+   <children>
+      <TextField fx:id="username" layoutX="235.0" layoutY="84.0" prefHeight="25.0" prefWidth="216.0" />
+      <Button layoutX="317.0" layoutY="211.0" mnemonicParsing="false" onAction="#AdminLoginButton" text="Login" />
+      <Label layoutX="100.0" layoutY="81.0" text="Username" textFill="#249833">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label layoutX="103.0" layoutY="143.0" text="Password" textFill="#0d807a">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <PasswordField fx:id="password" layoutX="235.0" layoutY="146.0" prefHeight="25.0" prefWidth="216.0" />
+      <Label fx:id="label" layoutX="117.0" layoutY="263.0" prefHeight="38.0" prefWidth="385.0" textFill="#c50f19">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button layoutY="363.0" mnemonicParsing="false" onAction="#back" prefHeight="47.0" prefWidth="601.0" style="-fx-background-color: BLACK;" text="&lt;&lt;&lt;&lt;&lt;BACK" textFill="#0eb522">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutY="-3.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="601.0" style="-fx-background-color: BLACK;" text="ADMIN" textFill="#10c923">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

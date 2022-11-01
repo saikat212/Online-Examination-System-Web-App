@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="542.0" prefWidth="611.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="online_mcq.ProfileController">
+   <children>
+      <Label layoutX="95.0" layoutY="92.0" prefHeight="36.0" prefWidth="61.0" text="Name :" />
+      <Label fx:id="pname" alignment="BOTTOM_LEFT" layoutX="141.0" layoutY="98.0" prefHeight="24.0" prefWidth="301.0" />
+      <Label layoutX="95.0" layoutY="166.0" text="Email :" />
+      <Label fx:id="pemail" layoutX="141.0" layoutY="163.0" prefHeight="24.0" prefWidth="237.0" />
+      <Label layoutX="96.0" layoutY="219.0" text="Institution :" />
+      <Label fx:id="pinstittution" layoutX="173.0" layoutY="219.0" prefHeight="17.0" prefWidth="265.0" />
+      <Button layoutX="14.0" layoutY="465.0" mnemonicParsing="false" onAction="#backAction" prefHeight="63.0" prefWidth="104.0" text="Back" />
+      <Label layoutX="96.0" layoutY="263.0" text="Username :" />
+      <Label fx:id="pusername" layoutX="173.0" layoutY="257.0" prefHeight="30.0" prefWidth="237.0" />
+   </children>
+</AnchorPane>

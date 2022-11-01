@@ -1,0 +1,2 @@
+Resgistration_Info{fullname=fn, email=e, inst=in, username=un, password=pass}
+Resgistration_Info{fullname=fn2, email=e2, inst=in2, username=un2, password=pass2}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="569.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="online_mcq.AdminHomeController">
+   <children>
+      <AnchorPane layoutX="-8.0" prefHeight="50.0" prefWidth="747.0" style="-fx-background-color: green;" />
+      <Button layoutY="50.0" mnemonicParsing="false" onAction="#setQuestionAction" prefHeight="37.0" prefWidth="131.0" text="SET QUESTiON" />
+      <TextArea fx:id="textarea" layoutX="-2.0" layoutY="241.0" prefHeight="173.0" prefWidth="261.0" />
+      <Label alignment="CENTER" layoutX="1.0" layoutY="210.0" prefHeight="28.0" prefWidth="255.0" text="Message for Student">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="207.0" layoutY="414.0" mnemonicParsing="false" onAction="#sendAction" prefHeight="28.0" prefWidth="52.0" text="Send" />
+      <TextArea layoutX="463.0" layoutY="241.0" prefHeight="173.0" prefWidth="255.0" />
+      <Label layoutX="466.0" layoutY="192.0" prefHeight="50.0" prefWidth="235.0" text="Student Message for Teacher">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="463.0" layoutY="416.0" mnemonicParsing="false" onAction="#clickButtonAction" prefHeight="25.0" prefWidth="96.0" text="Click To See" />
+      <Button layoutX="580.0" layoutY="53.0" mnemonicParsing="false" onAction="#LogoutAction" prefHeight="37.0" prefWidth="159.0" text="LOGOUT" />
+   </children>
+</AnchorPane>

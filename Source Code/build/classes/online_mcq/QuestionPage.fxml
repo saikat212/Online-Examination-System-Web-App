@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="420.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="online_mcq.QuestionPageController">
+   <children>
+      <Label layoutX="14.0" layoutY="146.0" prefHeight="25.0" prefWidth="100.0" text="Question ID:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="570.0" layoutY="70.0" prefHeight="18.0" prefWidth="126.0" text="TOTAL QUESTION  :" />
+      <AnchorPane layoutX="-111.0" layoutY="-8.0" prefHeight="64.0" prefWidth="966.0" style="-fx-background-color: green;">
+         <children>
+            <Text fill="WHITE" layoutX="447.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" textAlignment="CENTER" wrappingWidth="188.13668823242188">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Label fx:id="question" layoutX="50.0" layoutY="171.0" prefHeight="71.0" prefWidth="750.0" textFill="#500bf2">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="questionID" layoutX="114.0" layoutY="150.0" />
+      <Label fx:id="option1" layoutX="141.0" layoutY="271.0" prefHeight="18.0" prefWidth="712.0" textFill="#7905d2" />
+      <Label fx:id="option3" layoutX="141.0" layoutY="340.0" prefHeight="18.0" prefWidth="712.0" />
+      <Label fx:id="option4" layoutX="148.0" layoutY="382.0" prefHeight="18.0" prefWidth="704.0" textFill="#e60c0c" />
+      <Button fx:id="nextbutton" layoutX="88.0" layoutY="497.0" mnemonicParsing="false" onAction="#NextAction" prefHeight="48.0" prefWidth="100.0" text="Next" />
+      <CheckBox fx:id="b1" layoutX="106.0" layoutY="267.0" mnemonicParsing="false" onAction="#option1Action" />
+      <CheckBox fx:id="b4" layoutX="106.0" layoutY="378.0" mnemonicParsing="false" onAction="#option4Action" />
+      <CheckBox fx:id="b3" layoutX="106.0" layoutY="336.0" mnemonicParsing="false" onAction="#option3Action" />
+      <CheckBox fx:id="b2" layoutX="106.0" layoutY="300.0" mnemonicParsing="false" onAction="#option2Action" />
+      <Label fx:id="option2" layoutX="140.0" layoutY="300.0" prefHeight="18.0" prefWidth="712.0" textFill="#047d35" />
+      <Label fx:id="resultlabel" layoutX="106.0" layoutY="411.0" prefHeight="25.0" prefWidth="573.0" textFill="#0d8d26" />
+      <Label fx:id="questionNumber" layoutX="699.0" layoutY="67.0" prefHeight="25.0" prefWidth="90.0" />
+      <Label layoutX="624.0" layoutY="102.0" text="ATTEMPT : " />
+      <Label fx:id="attempt" layoutX="709.0" layoutY="102.0" />
+      <Label fx:id="timeUp" alignment="CENTER" layoutX="108.0" layoutY="451.0" prefHeight="25.0" prefWidth="529.0" />
+      <AnchorPane fx:id="viewResult" layoutX="392.0" layoutY="545.0" prefHeight="48.0" prefWidth="410.0" />
+      <Label fx:id="mytimer" layoutX="122.0" layoutY="68.0" prefHeight="48.0" prefWidth="110.0" />
+      <Label layoutX="57.0" layoutY="83.0" prefHeight="18.0" prefWidth="56.0" text="TIME :" />
+   </children>
+</AnchorPane>
